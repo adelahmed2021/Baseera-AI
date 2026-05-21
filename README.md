@@ -68,19 +68,10 @@ A specialized RAG pipeline designed for the complex structures of the Egyptian a
 
 ```bash
 # Clone the repository
-git clone [https://github.com/YOUR_USERNAME/baseera-ai.git](https://github.com/YOUR_USERNAME/baseera-ai.git)
+git clone [https://github.com/adelahmed2021/baseera-ai.git](https://github.com/adelahmed2021/baseera-ai.git)
 cd baseera-ai
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Set up environment variables (.env)
-echo "GROQ_API_KEY=your_key" >> .env
-echo "DEEPGRAM_API_KEY=your_key" >> .env
-echo "DATABASE_URL=postgresql://user:password@localhost/db" >> .env
 
-# Run database migrations
-python manage.py upgrade
-
-# Start the processing service
-python app.py
